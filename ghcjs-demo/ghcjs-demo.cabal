@@ -11,11 +11,13 @@ library
                 , lucid
                 , deepseq
                 , streamly
+                , clock
                 , mtl
   exposed-modules:
     Lib
     Hello
     AcidRain
+    CirclingSquare
   ghc-options: -Wall
 
 executable ghcjs-demo

@@ -1,0 +1,151 @@
+code size summary per package:
+
+atomic-primops-0.8.2-BMrJ1Umx4XoBYQiKBD6RoQ:9069
+base:                    716796
+clock-0.7.2-2jz90IP0fPyIZQUbAhTxDO:30810
+containers-0.5.11.0-GhhPXbBZ8rf1WBQjAVqqMW:597
+exceptions-0.10.0-1zicwSGzrXaGA4CRiz3Kp2:2455
+ghc-prim:                39396
+ghcjs-base-0.2.0.0-vChqEZHgE92ks7f0fhcqQ:13703
+ghcjs-demo-0.1-inplace:  493
+ghcjs-dom-jsffi-0.9.2.0-ywiQUATk4gIn9jeR8l4tD:43380
+ghcjs-prim-0.1.1.0-A1JdvSlggG4AS5cM95oali:5234
+integer-gmp:             6864
+lockfree-queue-0.2.3.1-B7CFF0EpeMhGDmY367Jbn6:2468
+main:                    74809
+monad-control-1.0.2.3-7qlakkOaU9H8vXwLQunI6e:239990
+streamly-0.6.0-LlQ9PE4yR63AP03ZanN2lz:165093
+transformers-base-0.4.5.2-DAhRlIKpd7n1VZy3BdvH8A:471
+
+
+code size per module:
+
+atomic-primops-0.8.2-BMrJ1Umx4XoBYQiKBD6RoQ
+    Data.Atomics:                       9069
+
+base
+    Control.Exception:                  6287
+    Control.Exception.Base:             598
+    Control.Monad.IO.Class:             270
+    Data.Maybe:                         1550
+    Data.OldList:                       281
+    Data.Type.Equality:                 69566
+    Data.Typeable.Internal:             10697
+    Foreign.C.Error:                    423
+    Foreign.Marshal.Alloc:              1646
+    Foreign.Storable:                   3444
+    GHC.Arr:                            7897
+    GHC.Base:                           582
+    GHC.Char:                           4860
+    GHC.Conc.Sync:                      13820
+    GHC.Enum:                           1560
+    GHC.Err:                            19358
+    GHC.Exception:                      6455
+    GHC.Fingerprint:                    724
+    GHC.Fingerprint.Type:               57722
+    GHC.Float:                          11445
+    GHC.Foreign:                        1518
+    GHC.ForeignPtr:                     3745
+    GHC.IO:                             1241
+    GHC.IO.Buffer:                      850
+    GHC.IO.BufferedIO:                  1248
+    GHC.IO.Device:                      1044
+    GHC.IO.Encoding:                    906
+    GHC.IO.Encoding.Failure:            2720
+    GHC.IO.Encoding.Latin1:             983
+    GHC.IO.Encoding.Types:              62030
+    GHC.IO.Encoding.UTF8:               23274
+    GHC.IO.Exception:                   34982
+    GHC.IO.FD:                          368
+    GHC.IO.Handle:                      7178
+    GHC.IO.Handle.FD:                   35019
+    GHC.IO.Handle.Internals:            17681
+    GHC.IO.Handle.Text:                 3900
+    GHC.IO.Handle.Types:                26648
+    GHC.Int:                            7293
+    GHC.List:                           174
+    GHC.MVar:                           3129
+    GHC.Num:                            174
+    GHC.Ptr:                            10655
+    GHC.Read:                           44744
+    GHC.Real:                           620
+    GHC.STRef:                          27288
+    GHC.Show:                           4160
+    GHC.Stack.CCS:                      1502
+    GHC.Stack.Types:                    13780
+    GHC.TopHandler:                     2611
+    GHC.Unicode:                        174
+    GHC.Weak:                           459
+    GHC.Word:                           14531
+    System.Posix.Internals:             23070
+    Text.ParserCombinators.ReadP:       168
+    Text.ParserCombinators.ReadPrec:    45119
+    Text.Printf:                        1520
+    Text.Read:                          67116
+    Text.Read.Lex:                      3989
+
+clock-0.7.2-2jz90IP0fPyIZQUbAhTxDO
+    System.Clock:                       30810
+
+containers-0.5.11.0-GhhPXbBZ8rf1WBQjAVqqMW
+    Data.Set.Internal:                  597
+
+exceptions-0.10.0-1zicwSGzrXaGA4CRiz3Kp2
+    Control.Monad.Catch:                2455
+
+ghc-prim
+    GHC.CString:                        10442
+    GHC.Classes:                        451
+    GHC.IntWord64:                      282
+    GHC.PrimopWrappers:                 2617
+    GHC.Tuple:                          3769
+    GHC.Types:                          21835
+
+ghcjs-base-0.2.0.0-vChqEZHgE92ks7f0fhcqQ
+    GHCJS.Marshal:                      1255
+    GHCJS.Marshal.Internal:             510
+    GHCJS.Marshal.Pure:                 11938
+
+ghcjs-demo-0.1-inplace
+    CirclingSquare:                     493
+
+ghcjs-dom-jsffi-0.9.2.0-ywiQUATk4gIn9jeR8l4tD
+    GHCJS.DOM:                          1285
+    GHCJS.DOM.EventM:                   819
+    GHCJS.DOM.EventTargetClosures:      1362
+    GHCJS.DOM.JSFFI.Generated.Document: 326
+    GHCJS.DOM.JSFFI.Generated.GlobalEventHandlers:1664
+    GHCJS.DOM.JSFFI.Generated.HTMLCanvasElement:1471
+    GHCJS.DOM.JSFFI.Generated.NonElementParentNode:26047
+    GHCJS.DOM.Types:                    10406
+
+ghcjs-prim-0.1.1.0-A1JdvSlggG4AS5cM95oali
+    GHCJS.Prim:                         3766
+    GHCJS.Prim.Internal:                1468
+
+integer-gmp
+    GHC.Integer.Type:                   6864
+
+lockfree-queue-0.2.3.1-B7CFF0EpeMhGDmY367Jbn6
+    Data.Concurrent.Queue.MichaelScott: 2468
+
+main
+    Main:                               74809
+
+monad-control-1.0.2.3-7qlakkOaU9H8vXwLQunI6e
+    Control.Monad.Trans.Control:        239990
+
+streamly-0.6.0-LlQ9PE4yR63AP03ZanN2lz
+    Streamly.SVar:                      147852
+    Streamly.Streams.Async:             3392
+    Streamly.Streams.Combinators:       11431
+    Streamly.Streams.SVar:              1774
+    Streamly.Streams.StreamK.Type:      644
+
+transformers-base-0.4.5.2-DAhRlIKpd7n1VZy3BdvH8A
+    Control.Monad.Base:                 471
+
+
+
+packed metadata: 259006
+

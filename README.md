@@ -1,4 +1,4 @@
-# ghcjs.github.io
+# pranaysashank.github.io
 GHCJS experiments
 
 1) Clone this folder
